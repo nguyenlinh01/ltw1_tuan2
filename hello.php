@@ -1,7 +1,7 @@
 <?php
-if(!empty($_POST['input']))
+if(!empty($_GET['input']))
 {
-    echo "Hello ".$_POST['input'];
+    echo "Hello ".$_GET['input'];
 }
  else {
      echo "Please input text";
